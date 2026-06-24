@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "framework": "vite",
   "buildCommand": "npm run build -w @blendquest/client",
   "outputDirectory": "packages/client/dist",
   "env": {
