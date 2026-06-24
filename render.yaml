@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: blendquest-server
+    env: node
+    buildCommand: npm install && npm run build -w @blendquest/server
+    startCommand: npm run start -w @blendquest/server
+    envVars:
+      - key: CORS_ORIGIN
+        sync: false # You will provide this in the Render Dashboard (should be your Vercel URL)
+      - key: NODE_ENV
+        value: production
