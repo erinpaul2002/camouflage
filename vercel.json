@@ -1,8 +1,1 @@
-{
-  "version": 2,
-  "buildCommand": "npm run build -w @blendquest/client",
-  "outputDirectory": "packages/client/dist",
-  "env": {
-    "VITE_SERVER_URL": ""
-  }
-}
+{}
